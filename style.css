@@ -1,0 +1,27 @@
+#login {
+    background-color: #f5f5f5;
+    width: 600px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 400px;
+}
+
+form input, form label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.regoff {
+    display: none;
+}
+
+.regOn {
+    display: block;
+}

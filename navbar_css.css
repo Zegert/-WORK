@@ -1,0 +1,63 @@
+nav {
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 70px;
+    height: 80px;
+    background-color: white;
+    -webkit-box-shadow: -2px 6px 70px -26px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: -2px 6px 70px -26px rgba(0, 0, 0, 0.12);
+    box-shadow: -2px 6px 70px -26px rgba(0, 0, 0, 0.12);
+}
+
+#logo img {
+    margin-top: 2px;
+    width: 90px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    z-index: 2;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: lightgray;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.2s ease;
+}
+
+.nav-links a:hover {
+    color: #4E7B86;
+    transition: 0.2s ease;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #4E7B86;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.burger div {
+    width: 20px;
+    height: 2px;
+    background-color: #4E7B86;
+    margin: 5px;
+    transition: all 0.3s ease;
+    z-index: 1;
+}
