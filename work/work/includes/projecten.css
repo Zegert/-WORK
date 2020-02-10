@@ -1,0 +1,42 @@
+body {
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+.project-input {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.project-input2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.project-input input {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.project-input2 input {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+}
+
+.projecten-form{
+    margin-top: 100px;
+}
+
+.projecten-form h1{
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}

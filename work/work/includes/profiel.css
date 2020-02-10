@@ -1,0 +1,327 @@
+/* CSS Document */
+#container{
+	margin:0 auto;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width:1000px;
+}
+nav {
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 70px;
+    height: 80px;
+    background-color: white;
+    -webkit-box-shadow: -2px 6px 70px -26px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: -2px 6px 70px -26px rgba(0, 0, 0, 0.12);
+    box-shadow: -2px 6px 70px -26px rgba(0, 0, 0, 0.12);
+}
+
+#logo img {
+    margin-top: 2px;
+    width: 90px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    z-index: 2;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: lightgray;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.2s ease;
+}
+
+.nav-links a:hover {
+    color: #4E7B86;
+    transition: 0.2s ease;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #4E7B86;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.burger div {
+    width: 20px;
+    height: 2px;
+    background-color: #4E7B86;
+    margin: 5px;
+    transition: all 0.3s ease;
+    z-index: 1;
+}
+
+#titel{
+	width:1000px;
+	display: flex;
+	justify-content: flex-start;
+	
+}
+
+#mijnprofiel{
+	margin:60px 0px 0px 60px;	
+	
+}
+
+h1{
+	margin-top:80px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:900;
+	color:#4E7B86;
+	font-size:34pt;
+}
+
+h3{
+	Margin-top:-20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:300;
+	color:#4E7B86;
+	font-size:14pt;
+}
+
+#profiel{
+	width:1000px;
+	display:flex;
+	justify-content: center;
+}
+
+#profielkaart{
+	background-color: white;
+    -webkit-box-shadow: -2px 6px 70px -26px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: -2px 6px 70px -26px rgba(0, 0, 0, 0.3);
+    box-shadow: -2px 6px 70px -26px rgba(0, 0, 0, 0.3);
+	padding:30px;
+	width:900px;
+	height:380px;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content:flex-start;
+	border-radius: 15px;
+	z-index:0;
+	
+}
+
+#leftcontent{
+	width:250px;		
+}
+
+#profielfoto{
+	width:250px;
+}
+
+#rightcontent{
+	padding:30px;
+	width: 550px;
+}
+
+#naam{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:900;
+	color:#D9D794;
+	font-size:16pt;
+	text-transform: uppercase;
+}
+
+#beroep{
+	margin-top:-15px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:300;
+	color:#D9D794;
+	font-size:14pt;
+}
+
+#plaats{
+	margin-top:-15px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:300;
+	color:#C99590;
+	font-size:14pt;
+}
+
+#over{
+	margin-top:15px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:300;
+	color:#D9D794;
+	font-size:14pt;
+	text-transform: uppercase;
+}
+
+p{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:300;
+	color:#4E7B86;
+	font-size:10pt;	
+}
+
+#website{
+	margin-top:15px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:300;
+	color:#D9D794;
+	font-size:12pt;
+}
+
+#dienstproject{
+	display:flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+#tab {
+    display: flex;
+    justify-content: space-around;
+	align-items: center;
+    width: 400px;
+	height:70px;
+	background-color: white;
+    -webkit-box-shadow: -2px 6px 70px -26px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: -2px 6px 70px -26px rgba(0, 0, 0, 0.3);
+    box-shadow: -2px 6px 70px -26px rgba(0, 0, 0, 0.3);
+	border-radius:0px 0px 100px 100px;
+	z-index:-1;
+	
+}
+
+#tabchoice li {
+    list-style: none;
+	float:left;
+	padding-right:45px;
+	
+}
+
+#tabchoice a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #4E7B86;
+    text-decoration: none;
+    font-size: 14px;
+	display:flex;
+	justify-content: flex-start;
+}
+
+#projecten{
+	display:flex;
+	width:1000px;
+	heigth:600px;
+	justify-content:space-around;
+	margin-top:60px;
+	flex-wrap:wrap;
+}
+
+.project{
+	width:300px;
+	height:300px;
+}
+
+#toevoegen{
+	width:300px;
+	height:300px;
+	border-radius:15px;
+	background-color: white;
+    -webkit-box-shadow: -2px 6px 70px -26px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: -2px 6px 70px -26px rgba(0, 0, 0, 0.3);
+    box-shadow: -2px 6px 70px -26px rgba(0, 0, 0, 0.3);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#add{
+	width:200px;
+	height:200px;
+	opacity: 0.35;
+}
+.projecttoevoegen {
+	margin-right: 600px;
+}
+
+
+.profile-titel{
+    text-align: center;
+}
+
+.projecten h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #4E7B86;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+
+.new-project{
+    height: 350px;
+    width: 300px;
+    position: relative;
+    border: 1px solid #4E7B86;
+}
+.new-project img{
+    width: 150px;
+    height: 150px;
+}
+
+.new-project a{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+}
+
+.update-form{
+    margin-top: 100px;
+    border: 1px solid #C99590;
+    padding: 10px;
+    width: 500px;
+    margin:  100px auto 0 auto;
+}
+
+.update-form h1{
+    margin-top: 20px;
+}
+
+.profiel-user{
+	font-weight: bold;
+	color: #C99590;
+}
+
+
+.update-form input,.update-form textarea{
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #4E7B86;
+    padding: 10px;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.update-form label{
+    margin-top: 20px;
+    display: block;
+}
+
+.update-form textarea{
+    margin-bottom: 20px;
+}
